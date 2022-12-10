@@ -1,0 +1,89 @@
+﻿*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+
+
+}
+
+.t-header {
+    background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url('image/jordan-petra-main header.jpg') no-repeat;    
+    background-size: 100% 100%;
+    background-attachment: fixed;
+    height: 700px;
+}
+
+
+/*nav ul li {
+    list-style-type:none;
+    display:inline-block;
+    padding:5px 20px;
+
+}
+nav ul li a{
+        color:white;
+        text-decoration:none;
+        font-weight:bold;
+
+    }
+nav ul li a:hover
+        {
+            color:brown;
+            transition:.3s;
+
+
+        }
+    */
+
+ .nav-link, .navbar-brand 
+ {
+            font-size: 18px;
+            font-weight: 700;
+            text-transform: uppercase;
+           
+  }
+.main-h{
+    font-size:75%;
+    margin-top:100px;
+    color:white;
+    text-transform:uppercase;
+
+}
+h9 {
+    color: white;
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%)
+}
+span::before{
+    content:" ";
+    animation: words 3s infinite;
+    color:saddlebrown;
+
+}
+@keyframes words{
+    0% {
+        content: " Welcome to Jordan ";
+    }
+    50% {
+        content: "  The people of Jordan welcome you";
+    }
+    100% {
+        content: " Jordan is the land of generosity";
+    }
+   
+}
+.about{
+    color:rgb(148,134,134);
+
+}
+footer{
+    background-color:gray;
+    color:white;
+    padding:12px;
+    text-align:center;
+
+
+}
